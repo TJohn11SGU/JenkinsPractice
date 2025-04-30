@@ -2,7 +2,7 @@ pipeline {
     agent any  // Runs on any available agent
 
     environment {
-        DOCKER_IMAGE = "kbhola001/simple-webpage"
+        DOCKER_IMAGE = "tjohn11/simple-webpage"
         DOCKER_CREDENTIALS = "docker-hub-credentials"  // Stored in Jenkins credentials
     }
 
