@@ -6,11 +6,20 @@
 -->
 <html>
 	<head>
-		<title>Tim's Barber Salon</title>
+	<style>
+		#sidebar1
+		{
+		margin-left: 20%;
+		
+		}
+		
+		</style>
+		<title>Tim's barber Salon</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
@@ -20,17 +29,19 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
-
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
-	<body class="homepage">
+	<body>
 
+	<!-- Header -->
 		<div id="header">
 			<div id="logo-wrapper">
 				<div class="container">
 						
-					
+					<!-- Logo -->
 						<div id="logo">
-							<h1><a href="#">Tim's Barber Salon</a></h1>
+							<h1><a href="#">Tim's Barbershop</a></h1>
 							<span>Cutting and Weaving</span>
 						</div>
 					
@@ -40,8 +51,8 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="active"><a href="index.html">Homepage</a></li>
-							<li><a href="Services.html">Services</a></li>
+							<li><a href="index.html">Homepage</a></li>
+							<li class="active"> <a href="Services.html">Services</a></li>
 							<li><a href="right-sidebar.html">Appointment</a></li>
 							<li><a href="two-sidebars.html">Contact</a></li>
 							<li><a href="no-sidebar.html">Locations:</a></li>
@@ -61,57 +72,52 @@
 	<!-- Main -->
 		<div id="main">
 
-			<!-- Featured -->
-			<div class="container">
-				<div class="row">
-					<section class="3u"> 
-						<a href="#" class="image full"><img src="images/Tim.jpg" alt=""></a>
-						<p>Tim Junior; son of the current creator. He may not be one of the barbers but he is incharge of managing all business operations and ventures of Tim's Barbershop throughout the triisland state of Grenada, Cariacou and Petite Martnique. </p>
-					</section>
-					<section class="3u">
-						<a href="#" class="image full"><img src="images/tools.jpg" alt=""></a>
-						<p>The barbershop utilizes the Finest Tools and equipment aquired from [insert place here] </p>
-					</section>
-					<section class="3u">
-						<a href="#" class="image full"><img src="images/popz.jpg" alt=""></a>
-						<p>Tim Senior; also known as Popz is the creator of the shop and estabished the barbershop through grenada and is currently teying to build connections to establish a regional franchise for the shop.</p>
-					</section>
-					<section class="3u">
-						<a href="#" class="image full"><img src="images/Grenada.jpg" alt=""></a>
-						<p>Ahh, the island of Grenada, Home of Tim's Barbershop, this beautiful island is a place of complete awesomness and tranquility and if your not livving here believe me when i say you are missing out :).</p>
-					</section>
-				</div>
-			
-			</div>
-			<!-- /Featured -->
-			
 			<!-- Main Content -->
 			<div class="container">
-				<div class="divider"></div>
 				<div class="row">
-					<div class="6u">
+					<div  id="sidebar1" class="3u" >
 						<section>
 							<header>
-								<h2>Tim's Cuts</h2>
-							</header>
-							<p>Welcome to<strong> Elemental</strong>, a free responsive HTML5 website template designed by <a href="http://templated.co">TEMPLATED</a>.   It features a neat and clean color combination, a spacious content area, and a large banner area, making it a great design for a corporate/portfolio type of website.  And like all of our templates, it is built on HTML5 and CSS3, has full responsive support for desktops, tablets, and mobile devices, and is 100% free to use personally or commercially under the <a href="http://templated.co/license">Creative Commons Attribution 3.0 license</a>. Be sure to check out our <a href="http://templated.co">website</a> for more awesome free HTML5 templates and follow us on <a href="https://twitter.com/templatedco">Twitter</a> for updates and new releases! Enjoy!</p>
-						</section>
-					</div>
-					<div id="sidebar1" class="3u">
-						<section>
-							<header>
-								<h2>Pages:</h2>
+								<h2>Sidebar #1</h2>
 							</header>
 							<ul class="default alt">
-								<li class="fa fa-angle-right"><a href="Services.html">Services</a></li>
-								<li class="fa fa-angle-right"><a href="https://www.gov.gd/index.html">Appointment</a></li>
-								<li class="fa fa-angle-right"><a href="http://www.tamcc.edu.gd/">Contact</a></li>
-								<li class="fa fa-angle-right"><a href="http://www.tamcc.edu.gd/">Location</a></li>
-								
+								<a href="#" class="image full"><img src="images/imgC_1.jpg" alt=""></a>
+								<header>
+								<h3 style="color:#c8ad4e; font-weight:bold;">Short Choppy Curls</h3>
+							</header>
+								<a href="#" class="image full"><img src="images/imgC_2.jpg" alt=""></a>
+								<header>
+								<h3 style="color:#c8ad4e; font-weight:bold;">Side Swept Disconnected Undercut</h3>
+							</header>
+								<a href="#" class="image full"><img src="images/imgC_3.jpg" alt=""></a>
+								<header>
+								<h3 style="color:#c8ad4e; font-weight:bold;">Heavy Angular Fringe</h3>
+								</header>
 							</ul>
 						</section>
 					</div>
 					
+					<div id="sidebar2" class="3u" style="float: right">
+						<section>
+							<header>
+								<h2>Sidebar #2</h2>
+							</header>
+							<ul class="default alt">
+								<a href="#" class="image full"><img src="images/imgC_4.jpg" alt=""></a>
+								<header>
+								<h3 style="color:#c8ad4e; font-weight:bold;">Curly Drop Fade</h3>
+								</header>
+								<a href="#" class="image full"><img src="images/imgC_5.jpg" alt=""></a>
+								<header>
+								<h3 style="color:#c8ad4e; font-weight:bold;">Curly Skin Fade</h3>
+								</header>
+								<a href="#" class="image full"><img src="images/imgC_6.jpg" alt=""></a>
+								<header>
+								<h3 style="color:#c8ad4e; font-weight:bold;">Extra-short Curls</h3>
+								</header>
+							</ul>
+						</section>
+					</div>
 				</div>
 			
 			</div>
@@ -126,10 +132,13 @@
 				<div class="row">
 					<div class="6u">
 						<section>
+						<header>
+								<h2>Services</h2>
+							</header>
 							<header>
 								<h2>Partners and Collaborations</h2>
 							</header>
-							<a href="#" class="image full"><img src="images/Banner.png" alt=""></a>
+							<a href="#" class="image full"><img src="images/Banner.jpg" alt=""></a>
 							<p> Thorughout the years in order to establish the barbershop throughout the Tri-island state, regionally, and eventually the world severlal different partners have been established. And even more will be made in the near, distant and far future!</p>
 						</section>
 					</div>
