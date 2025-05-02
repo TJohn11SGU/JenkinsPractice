@@ -1,11 +1,11 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-	Colorized by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+Name: Timon John
+Assignment: Assignment 2
+Date: 6/11/2019
 -->
 <html>
-	<head>
+		<head>
 		<title>Tim's Barber Salon</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
@@ -22,7 +22,7 @@
 		</noscript>
 
 	</head>
-	<body class="homepage">
+		<body class="homepage">
 
 		<div id="header">
 			<div id="logo-wrapper">
@@ -40,9 +40,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="active"><a href="index.html">Homepage</a></li>
+							<li><a href="index.html">Homepage</a></li>
 							<li><a href="Services.html">Services</a></li>
-							<li><a href="Appointment.html">Appointment</a></li>
+							<li class="active"><a href="Appointment.html">Appointment</a></li>
 							<li><a href="Contact.html">Contact</a></li>
 							<li><a href="Location.html">Locations:</a></li>
 						</ul>
@@ -57,70 +57,43 @@
 			</div>
 		</div>
 	<!-- /Banner -->
-
-	<!-- Main -->
-		<div id="main">
-
-			<!-- Featured -->
+	<div id="main">
+	
+	<div id="FirmHold">
 			<div class="container">
-				<div class="row">
-					<section class="3u"> 
-						<a href="#" class="image full"><img src="images/Tim.jpg" alt=""></a>
-						<p>Tim Junior; son of the current creator. He may not be one of the barbers but he is incharge of managing all business operations and ventures of Tim's Barbershop throughout the triisland state of Grenada, Cariacou and Petite Martnique. </p>
-					</section>
-					<section class="3u">
-						<a href="#" class="image full"><img src="images/tools.jpg" alt=""></a>
-						<p>The barbershop utilizes the Finest Tools and equipment aquired from True Fit and Hill. </p>
-					</section>
-					<section class="3u">
-						<a href="#" class="image full"><img src="images/popz.jpg" alt=""></a>
-						<p>Tim Senior; also known as Popz is the creator of the shop and estabished the barbershop through grenada and is currently teying to build connections to establish a regional franchise for the shop.</p>
-					</section>
-					<section class="3u">
-						<a href="#" class="image full"><img src="images/Grenada.jpg" alt=""></a>
-						<p>Ahh, the island of Grenada, Home of Tim's Barbershop, this beautiful island is a place of complete awesomness and tranquility and if your not livving here believe me when i say you are missing out :).</p>
-					</section>
-				</div>
-			
-			</div>
-			<!-- /Featured -->
-			
-			<!-- Main Content -->
-			<div class="container">
-				<div class="divider"></div>
-				<div class="row">
-					<div class="6u">
-						<section>
-							<header>
-								<h2>Tim's Cuts</h2>
-							</header>
-							<p>Welcome to<strong> Tim's Babrbersalon</strong>, and we hope you stay. we provide an amazing service worthy of celebrity and have a high want for customer satifaction. We wont dissappoint and we refund "depending on the circumstance". YOu can make an appointment with us or just come on down to one of our locations. If you don't lnow what you want Check our Services!!! We provide to bothe men and women.
-							</section>
-					</div>
-					<div id="sidebar1" class="3u">
-						<section>
-							<header>
-								<h2>Pages:</h2>
-							</header>
-							<ul class="default alt">
-								<li class="fa fa-angle-right"><a href="Services.html">Services</a></li>
-								<li class="fa fa-angle-right"><a href="Appointment.html">Appointment</a></li>
-								<li class="fa fa-angle-right"><a href="Contact.html">Contact</a></li>
-								<li class="fa fa-angle-right"><a href="Location.html">Location</a></li>
-								
-							</ul>
-						</section>
-					</div>
-					
-				</div>
-			
-			</div>
-			<!-- /Main Content -->
-			
-		</div>
-	<!-- /Main -->
 
-	<!-- Footer -->
+<div id="id01" class="modal">
+  
+  <div id="Firm" class="animate">
+			<form action = "ProcessTimsBS.php" method="POST">
+			<p>
+			<Label>First Name:</label>
+			<input type="text" ID="Fname" name="Fname" required/>
+			</p>
+			<p>
+			<Label>Last Name:</label>
+			<input type="text" ID="Lname" name="Lname" required/>
+			</p>
+			<p>
+			<Label>Service:</label>
+			<input type="text" ID="serv" name="serv" required/>
+			</p>
+			<p>
+			<Label>Date:</label>
+			<input type="text" ID="date" name="date" required/>
+			</p>
+			<p>
+			<input type="submit" ID="btn" value="Send"/>
+			</p>
+			</form>
+			</div>
+
+  </form>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
 		<div id="footer">
 			<div class="container">
 				<div class="row">
@@ -173,5 +146,6 @@
 			</div>
 		</div>
 
-	</body>
+			</body>
+
 </html>

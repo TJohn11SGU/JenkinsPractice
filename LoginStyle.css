@@ -1,0 +1,152 @@
+/*
+Name: Timon John
+Assignment: Assignment 2
+Date: 6/11/2019
+*/
+h3{
+	
+	font-size: 25px;
+}
+ body{
+	 background-image: url(images/Barbershop.jpg);
+	 background-repeat: no-repeat;
+	 background-size: 100% 130%;
+	 
+ }
+ input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+	position: relative;
+	display: inline-block;
+	border: 0;
+	border-radius: 2px;
+	padding: 10px;
+	background-color: #561f1a;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;	 
+}
+
+button:hover{
+	
+	background-color: #f8efcf;
+  color: black;	
+}
+ #Firm{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #561f1a;
+	width: 20%;
+	border-radius:10px;
+	margin: 100px auto;
+	background: white;
+	padding:50px;
+ }
+ #btn{
+	position: relative;
+	display: inline-block;
+	border: 0;
+	border-radius: 2px;
+	padding: 10px;
+	background-color: #561f1a;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;	 
+	float: right;
+ }
+ #btn:hover{
+	
+	background-color: #f8efcf;
+	color: black;	
+}
+ #L_btn
+ {
+	 margin-top: 15%
+ }
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+
+
+.close {
+  margin-left: 100%;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+
+
+
+
+
+
+

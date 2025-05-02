@@ -8,22 +8,24 @@ Date: 6/11/2019
 	<head>
 	
 	<title> Login page </title>
-	<link rel="stylesheet" type="text/css" href="LoginStyle.css">
-	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+	
+			<link rel="stylesheet" type="text/css" href="LoginStyle.css">
+					
+	
 	
 	</head>
 		<body>	
 		<div id="L_btn">
 		<div id="Firm">
-		<h3><center> Login </center></h3>
-			<p><center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button><center><p>
+		<h3><center> Tim's Barber Salon </center></h3>
+			<p><center><button type="button" onclick="document.getElementById('id01').style.display='block'" class="loginButton">Login</button><center><p>
 		</div>
 		</div>
 
 <div id="id01" class="modal">
   
   <div id="Firm" class="animate">
-			<form action = "ProcessTim.php" method="POST">
+			<form action = "ProcessTimsBS.php" method="POST">
 			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 			<p>
 			<Label>Username:</label>
